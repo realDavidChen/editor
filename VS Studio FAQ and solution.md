@@ -1,3 +1,7 @@
+# remove VS studio settings
+> This is the easiest solution if your VS studio is not working properly for a variety of reasons
 
-### fix VS studio lost terminal
-File -> Preferences -> Setting -> Features -> Terminal -> Inherit Env
+```
+$cd ~ && rm -rf .vscode && rm -rf .config/Code
+```
+
