@@ -58,7 +58,7 @@ using pip the install package
 $ pip search kivy
 $ pip install kivy
 
-## comment questions:
+## Questions:
 ### install finish, as the first time to use. if you type: "$ conda"  not working,  go to path 
 $ ~/miniconda3/bin/
 $ conda
