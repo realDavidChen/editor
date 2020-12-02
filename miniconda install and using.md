@@ -1,12 +1,20 @@
 ## dowloads news version conda and select your env(win, mac,or linux)
-2
+
 https://docs.conda.io/en/latest/miniconda.html
-3
-##install 
-4
-$ dash miniconda****.sh
+or 
+
+$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+
+
+Make the miniconda installation script executable
+
+$ chmod +x Miniconda3-latest-Linux-x86_64.sh
+
+##install miniconda
+
+$ ./Miniconda3-latest-Linux-x86_64.sh
 5
-# reopen terminal type:
+## restart terminal and type:
 6
 $ conda
 7
