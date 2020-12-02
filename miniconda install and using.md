@@ -47,11 +47,19 @@ $ conda install python=3.7.9
 
 > Note! conda respository pageckage no much. you can try using this method, to inprovte
 
+$ conda install pip
+using pip the install package
+$ pip search kivy
+$ pip install kivy
+
 ## conda map:
 
 conda
+
    env1
+   
    env2--install python3.8
+   
    env3--pageckage:kivy, python3.7
    
    
