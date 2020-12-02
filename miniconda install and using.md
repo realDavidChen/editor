@@ -2,7 +2,7 @@
 
 https://docs.conda.io/en/latest/miniconda.html
 
-or 
+or using terminal wget miniconda3
 
 $ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
