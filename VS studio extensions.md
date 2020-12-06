@@ -8,6 +8,7 @@
 
 ## diagrams
 - draw.io *.drawio
+mindmap for souche *.km
 
 ## translate
 
