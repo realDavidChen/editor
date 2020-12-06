@@ -6,6 +6,9 @@
 
 - Markdown All in One
 
+## diagrams
+- draw.io *.drawio
+
 ## translate
 
 - comment Translate
