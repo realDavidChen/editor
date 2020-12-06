@@ -2,27 +2,27 @@
 
 ## for Markdown .md files
 
-### Markdown Mind Map Preview
+- Markdown Mind Map Preview
 
-### Markdown All in One
+- Markdown All in One
 
 ## translate
 
-### comment Translate
+- comment Translate
 
 ## terminal
 
 ## kivy
 
-### Kvlang
+- Kvlang
 
-### python-kivy-snippets
+- python-kivy-snippets
 
 ## python
 
-### python-autopep8
+- python-autopep8
 
-### AREPL for python
+- AREPL for python
 
 ## format
-### prettier- code formatter 
+- prettier- code formatter 
