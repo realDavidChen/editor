@@ -13,6 +13,8 @@
 
 - Markdown Shorcuts
 
+- Markdown PDF
+
 ## diagrams
 - draw.io *.drawio
 
