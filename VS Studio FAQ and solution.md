@@ -11,6 +11,6 @@ $ cd ~ && rm -rf .vscode && rm -rf .config/Code
 
 ## fix Ctrl + click multi-cursor not working
 
-in keyboard shortcus search: multiCursor, and settings, Toggle Multi-Cursor Modifier keybinding to ctrl+shift+9(or + 1,2,3,4,5)
+in keyboard shortcus search: multiCursor, and settings, Toggle Multi-Cursor Modifier keybinding to ctrl+shift+9(or + 1,2,3,4,5 whatever you want)
 
-> and then, ctrl+click is work, I don't know what is reason, maybe just bug
+> and then, ctrl+click multi-cursor selects is work, I don't know what is reason, maybe just bug
