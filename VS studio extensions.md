@@ -9,6 +9,8 @@
 ## diagrams
 - draw.io *.drawio
 
+> .drawio export to .svg, can continue editor on draw.io and views on web.
+
 - mindmap for souche *.km
 
 ## translate
