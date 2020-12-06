@@ -15,6 +15,9 @@
 
 - Markdown PDF
 
+- Markdown Paste
+
+
 ## diagrams
 - draw.io *.drawio
 
