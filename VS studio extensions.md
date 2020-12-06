@@ -1,10 +1,17 @@
 # VS studio extensions
 
+## Html css
+
+- HTML Snippets
+
+
 ## for Markdown .md files
 
 - Markdown Mind Map Preview
 
 - Markdown All in One
+
+- Markdown Shorcuts
 
 ## diagrams
 - draw.io *.drawio
