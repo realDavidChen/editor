@@ -60,4 +60,4 @@
 
 ### 多光标选择失灵
 
-selection-- swith to ***  做修改
+菜单栏：selection-- swith to ***  做修改
