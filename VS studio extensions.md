@@ -48,7 +48,7 @@
 
 ## React javascript file support Emmet command line:
 
-F1==> search"setting"==> open"setting.json
+F1==> search"settings"==> open"settings.json"
 
 in the content area insert:
 
