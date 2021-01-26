@@ -7,7 +7,12 @@ $ cd ~ && rm -rf .vscode && rm -rf .config/Code
 
 ## fix terminal not working, try:
 
-> f1--open user settings-- search "terminal"-- "terminal>Integrated:Inherit Env" select it 
+Here is the fix:
+
+-CLick bottom left setting wheel
+-go to setting > Features > terminal
+-Select Explorer kind: Intergrated
+-Change inheritEnv to true.
 
 ## fix Ctrl + click multi-cursor not working
 
