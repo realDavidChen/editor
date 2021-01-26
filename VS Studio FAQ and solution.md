@@ -14,6 +14,8 @@ Here is the fix:
 - Select Explorer kind: Intergrated
 - Change inheritEnv to true.
 
+![](https://raw.githubusercontent.com/realDavidChen/editor-tools/main/images/jc2kz.png)
+
 ## fix Ctrl + click multi-cursor not working
 
 in keyboard shortcus search: multiCursor, and settings, Toggle Multi-Cursor Modifier keybinding to ctrl+shift+9(or + 1,2,3,4,5 whatever you want)
