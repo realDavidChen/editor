@@ -9,10 +9,10 @@ $ cd ~ && rm -rf .vscode && rm -rf .config/Code
 
 Here is the fix:
 
--CLick bottom left setting wheel
--go to setting > Features > terminal
--Select Explorer kind: Intergrated
--Change inheritEnv to true.
+- CLick bottom left setting wheel
+- go to setting > Features > terminal
+- Select Explorer kind: Intergrated
+- Change inheritEnv to true.
 
 ## fix Ctrl + click multi-cursor not working
 
