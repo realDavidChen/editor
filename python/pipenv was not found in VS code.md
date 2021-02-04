@@ -14,7 +14,7 @@ copy output path to:
 settings.json:
 
 ```
-"python.pythonPath": "/Users/[username]/.local/share/virtualenvs/[app-NVz65APH]/bin/python",
+"python.pythonPath": "/....the_output_path....",
 
 ```
 
