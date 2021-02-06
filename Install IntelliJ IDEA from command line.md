@@ -1,4 +1,4 @@
-1. Select your preferred version to install:
+## step 1. Select your preferred version to install:
 
 $ sudo snap install intellij-idea-community --classic
 
@@ -12,7 +12,7 @@ $ sudo snap install intellij-idea-educational --classic
 
 All done.
 
-2. You can start the IntelliJ IDEA using the below command:
+## setp 2. You can start the IntelliJ IDEA using the below command:
 
 $ intellij-idea-community
 
