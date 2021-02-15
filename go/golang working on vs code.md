@@ -9,3 +9,11 @@ f1 ==> Go:install/Update Tools ==> select OK  to install and update all tools
 ## extention 
 
 go, go snippets, go sniper
+
+## run go file:
+ 
+ in terminal type:
+ 
+ ```
+ go run main.go
+ ```
