@@ -38,4 +38,19 @@
     "command": "workbench.action.files.save"
   },
   ```
-
+  
+  最终结果：
+  
+  ```
+{
+    "key": "ctrl+s",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "key": "alt+s",
+    "command": "workbench.action.files.save"
+  },
+  
+ ```
+ 
+ 完成了，请在vs编辑器中测试效果，如果没有反应，重启一下编辑器，或者在 Preferences: Open keyboard Shortcuts 界面，手工填加一遍试试
