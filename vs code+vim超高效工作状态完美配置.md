@@ -6,6 +6,7 @@
 
 1. F1==》搜索 keyboard  打开 Preferences: Open keyboard Shortcuts
 2. 搜索 ctrl+[  对着vim相关的模式切换快捷键，改成 alt+f （实现单手快捷模式切换，就是在vs code和vim两种模式间的快速切换，另，点esc也可以切换，就是距离太远，对很多大的键盘不是非常方便）
+3. 把Esc键和vim关联的按钮解除掉，让esc成为vs code默认值（因为vim用上esc键会导致取消自动热点匹配列表变得困难，使snippets的懒人快捷键发生冲突）
 
 ## 该 save 保存功能配置双快捷键（很多的应用，保存文件后，立马刷新，我们快捷键除了保留原来的 ctrl+s外，在单独的给配置一个alt+s， 这样保存文件的效率跟高一点）
 
