@@ -1,4 +1,11 @@
-# vs code超高效工作状态完美配置
+# vs code键盘自定义+vim超高效工作状态完美配置
+
+##  自定义vs键盘快捷键
+
+1. F1 ==》 搜索 ```Preferences: open Keyboard Shortcuts``` 打开快捷键自定义面板
+2. 
+
+
 
 ## 安装vim官方插件
 
