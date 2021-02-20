@@ -15,6 +15,12 @@ Live Server Address:  http://localhost:5500/index.php  # 5500 是live server默�
 ### 2. vs code 客户端安装 live server, 选中正在编辑的php文件,点下角的live server按钮，直到出现 Port: 5500端口成功启动并在浏览器中运行，这个时候就全部完成了，
 可以在浏览器中打开 http://localhost/index.php 看看，完全同步的，编辑器这里保持一下，浏览器端自动更新
 
+
+
+
+
+
+
 ### 3.这里有一个不错的完整安装php运行环境的方法，可以参照本流程设置
 
 ========================================================
