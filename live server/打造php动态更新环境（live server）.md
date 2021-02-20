@@ -19,4 +19,46 @@ Live Server Address:  http://localhost:5500/index.php  # 5500 是live server默�
 
 ========================================================
 
+## Install Full Webserver Apache, PHP, MySQL, phpMyAdmin on | Ubuntu
+
+Steps:
+
+- $ sudo apt-get update
+- $ sudo apt-get install apache2
+- $ sudo apache2ctl configtest
+- $ sudo nano /etc/apache2/apache2.conf
+
+  > Add ServerName 在文档最尾部添加：
+
+  ```
+  ServerName 127.0.0.1
+
+  ```
+
+- $ sudo apache2ctl configtest
+- $ sudo systemctl restart apache2
+- $ sudo chmod 777 /var/www/html
+- $ sudo apt-get install mysql-server
+- $ sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+- $ sudo nano /etc/apache2/mods-enabled/dir.conf
+
+> 在配置文件的第二行，把 index.php 放在最前面
+
+- $ sudo systemctl restart apache2
+- $ cd /var/www/html
+- $ sudo nano index.php
+- $ php phpinfo();
+- $ sudo apt-get install phpmyadmin
+- $ sudo nano /etc/apache2/apache2.conf
+
+> Add 在行尾再添加一句
+
+```
+Include /etc/phpmyadmin/apache.conf
+```
+
+- $ sudo systemctl restart apache2
+
+> Enjoy, video: https://www.youtube.com/watch?v=TKLPDbSqOPY&t=27s
+
 
