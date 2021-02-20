@@ -9,7 +9,9 @@
 
 
 > 任何地方点右键====》选 add keybinding ==> 按下向下的箭头 出现 down, 并出现 * existing commands have keybinding 就点击这条进入，就可以看到已经使用了向下箭头的列表
+
 > 找到 cursorDown textInputFocus 这一行，只是vs编辑器默认的向下箭头键，点右键 ===》add keybinding ==>(正式的设置你自己的快捷键，我模仿vim多个alt)alt+j==>enter(确认你新添加的快捷键，相当于新的和默认的快捷键都可以用)
+
 > 在编辑器中，试试是否已经修改成功了，如果可以，其他的按相同的方法全部做相应的处理就可以了
 
 5. 自定义好远离键盘中心的方向键，esc键后，你会发现你编写代码的速度快了好多
