@@ -85,4 +85,4 @@
  2. 在上一行插入 ctrl+shift + enter
  3. 选择弹出的字典，除了方向键盘，和可以用 ctrl+j向下选择ctrl+u回到第一条，并按tab键选中
  4. 减少enter热键被占用，提高录入效率和防止录入错误
- 5.
+ 5. 使用snippet时，生成框架后，输入文字时依然被框选，导致其他内容的自动热点提示框不能弹出，按esc可以 leaveSnippet ， 搜索 leaveSnippet 可以再给它添加一个 alt+d的热键
