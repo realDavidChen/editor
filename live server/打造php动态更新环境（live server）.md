@@ -6,7 +6,7 @@
 living reload 开启
 I don't want proxy setup (recommended) 打勾
 Actual Server Address: http://localhost/    # 这里填的是本地运行环境的地址，首先要配置好本地的php运行环境，否则无法工作
-Live Server Address:  http://localhost:5500/index.php  # 5500 是live server默认的端口，index.php是我的一个页面
+Live Server Address:  http://localhost:5500/  # 5500 是live server默认的端口，应用可以监视vs code编辑器内所有的php文件，并自动的转到本地php环境中
 
 ```
 > 把网址直接填到浏览器中，htmlw文件可以打开，但是php只会跳出来让你下载，因为运行php文件是需要运行环境的
