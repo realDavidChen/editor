@@ -1,5 +1,29 @@
 # vs code键盘自定义+vim超高效工作状态完美配置
 
+> 今天对vs code 的快捷键进行了布局，决定取消vim的插件，但是保留vim的快捷键风格，并进行改造
+
+
+- v+* 几个是官方默认的工具栏快捷键
+- v+d 键，可以用来设置 取消，替代 esc键 
+  - hideSuggestWidget 隐藏建议面板
+  - 。。。
+- alt+h\j\k\l 快速上下移动，替代 方向键盘（参考vim）
+- 快速跳转行首，行尾和页头，页尾， 用 home, end, page up, page down,跳转到指定行用 ctrl+g 输入行号，然后回车
+- 建议框selectNextSuggestion, selectPrevSuggestion 上下选择用 alt+u, alt+n 替代方向键
+
+
+> 其它的快捷键方法，请参照官方文档
+> 通过上面的改造，发现比在vim键盘插件来回切换用起来舒服多了。
+
+
+
+
+
+
+
+
+============================= 以下为旧文，未整理 ===========================
+
 ## 一. 自定义vs键盘快捷键
 
 1. F1 ==》 搜索 ```Preferences: open Keyboard Shortcuts``` 打开快捷键自定义面板
