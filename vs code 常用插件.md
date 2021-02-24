@@ -1,0 +1,97 @@
+# vscode 常用插件
+
+## react 和 react native JS 相关插件
+**JavaScript (ES6) code snippets**\
+**JavaScript Snippet Pack**\
+和js 相关的快捷键请参考插件说明
+
+**React Standard Style code snippets**\
+包含react标准的经典样本
+
+**React-Native/React/Redux snippets for es6/es7**\
+很多的snippet供使用
+
+
+
+
+
+## markdown 插件
+- **markdown-formatter** \
+  编写md文件效率大增，使用前请把这段代码添加到 settings.json
+
+```
+"[markdown]": {
+  // 快速补全
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+}
+
+```
+
+ **Markdown All in One** \
+  满足基本的需求，预览窗口，语法高亮等
+
+  **Markdown Paste** \
+  可以快速的把网页的内容，粘帖到文档中，粘帖快捷键为 Ctrl+Alt+V，用这款插件，必须要安装插件才能工作
+```
+    'xclip' command be required (Linux)
+    'powershell' command be required (Win32)
+    'pbpaste' command be required (Mac)
+```
+**Markdown Preview Github Styling** \
+显示github风格
+
+  **Markdown Shortcuts** \
+  右键有markdown格式的相关功能
+
+## 技巧与效率工具
+
+**Path Intellisense**\
+快捷的路径工具
+
+**Material Icon Theme**\
+更完美的icon，方便识别，在标签的头部也有图标
+
+**Bracket Select**\
+快速选定括号内的内容，方便删除或者修改，这里需要注意的是，插件默认的快捷键为alt+a，毕竟不是非常常用的命令，为防止误操作我改成alt+9
+
+**Comment Translate**\ 
+注释区自动翻译，非注释区只需要选中文本，鼠标轻微移动一下，也可以翻译，有时用得上
+
+**Live Server**\ 
+实时预览工具，非常实用，在浏览器中，跳出文件夹，文件夹内的文件都可以预览，\
+
+如果要**预览php文件**，本地需预装php环境并启用，并配合chrome浏览器**Live Server Web Extension**插件实现实时，转向预览，也就是，你输入php内容，点击保存时，文件可以实现实时同步
+![img](./images/2021-02-24_13-28.png)
+
+**vscode-pdf**\ 
+浏览pdf文件
+
+**Draw.io Integration**\
+最好用的图形化画图软件\
+**技巧说明**:默认文件格式为 test.drawio 格式,双击即可打开开始编辑，编辑完成后，保留成 svg格式，即可在网页上显示，也可以直接修改svg文件，当然，如果你保持好 svg文件，又希望在 Draw.io Integration中编辑，可以保持成： test.drawio.svg
+
+**Preview on Web Server**\ 
+这个插件，编辑html文件，可以在浏览器和编辑器右侧同步浏览
+
+**Prettier - Code formatter**\
+
+非常实用的格式化软件 支持格式非常丰富
+```
+JavaScript · TypeScript · Flow · JSX · JSON
+CSS · SCSS · Less
+HTML · Vue · Angular
+GraphQL · Markdown · YAML
+```
+
+****\
+
+
+
+
+
+
+
