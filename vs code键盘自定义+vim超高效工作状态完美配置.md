@@ -29,7 +29,7 @@ F1 ==> keyboard ==>
 
 2. 搜索 Focus Terminal （找到标有workbench.action.terminal.focus那一行) 添加 alt+v 快捷键  ## 目的，光标快速跳转到 命令行处，注意：如果在同一个命令行界面，分割成多个界面，可以按 alt+箭头键进行切换
 3. 快捷打开与收起内置命令行工具 ctrl+`, 在这里可以多添加一个快捷键（Toggle Integrated Terminal,右键添加快捷键），还是alt+v， 如果需要调出面板时，按alt+v, 在按一次alt+v，收起面板，如果要跳转到工作界面，而继续保留命令行面板，只需要按设定好的alt+e即可，非常非常的实用
-4. 
+4. 添加内容扩选与缩选 expand selection = alt+= shrink select =  alt+_
 
 
 
