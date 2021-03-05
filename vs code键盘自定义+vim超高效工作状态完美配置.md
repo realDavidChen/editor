@@ -1,21 +1,14 @@
 # vs code 键盘自定义+vim 超高效工作状态完美配置
 
 > 今天对 vs code 的快捷键进行了布局，决定取消 vim 的插件，但是保留 vim 的快捷键风格，并进行改造
+### 用alt+q来取代esc（包含hideSuggestWidget 隐藏建议面板）
+### 快速跳转，模拟vim风格（用alt+vim默认的跳转键位）
 
-- v+\* 几个是官方默认的工具栏快捷键
-- v+d 键，可以用来设置 取消，替代 esc 键
-  - hideSuggestWidget 隐藏建议面板
-  - 。。。
-- alt+h\j\k\l 快速上下移动，替代 方向键盘（参考 vim）
+- alt+vim默认的跳转键位，alt+h\j\k\l 快速上下移动，替代 方向键盘
 - 快速跳转行首，行尾和页头，页尾， 用 home, end, page up, page down,跳转到指定行用 ctrl+g 输入行号，然后回车
-- 建议框 selectNextSuggestion, selectPrevSuggestion 上下选择用 alt+u, alt+n 替代方向键
+### 跳出的建议框上下移动选择快捷键
+ 建议框 selectNextSuggestion, selectPrevSuggestion 上下选择用 alt+u, alt+n 替代方向键
 
-- 括号内的内容工具
-  Bracket Pair Colorizer：点括号的一边，括号内文件高亮提示\
-  Bracket Select：快速选中括号内的内容，快捷键已改为 alt+9 （默认 alt+a，容易误操作）
-
-> 其它的快捷键方法，请参照官方文档
-> 通过上面的改造，发现比在 vim 键盘插件来回切换用起来舒服多了。
 
 ## 工作区间的快速跳转
 
@@ -23,14 +16,16 @@
 2. 已打开的多个文件之间切换，按 ctrl+tab 一直按到你要选择的那个文件，松开快捷键即可，也可以直接按alt+1,2...选择
 3. 快速跳转到菜单栏， 按alt键，箭头键切换，再按一次alt返回原点
 
-## 为快速的在编辑工作区和内置命令行之间来回切换，做了如下配置
-F1 ==> keyboard ==> 
-1. 搜索 Focus First Editor Grop 在原有的ctrl+1 基础上，右键添加一个新的快捷键，键盘同时按 alt+e 按enter确认  ## 目的： 光标快速到跳转到编辑处
 
-2. 搜索 Focus Terminal （找到标有workbench.action.terminal.focus那一行) 添加 alt+v 快捷键  ## 目的，光标快速跳转到 命令行处，注意：如果在同一个命令行界面，分割成多个界面，可以按 alt+箭头键进行切换
-3. 快捷打开与收起内置命令行工具 ctrl+`, 在这里可以多添加一个快捷键（Toggle Integrated Terminal,右键添加快捷键），还是alt+v， 如果需要调出面板时，按alt+v, 在按一次alt+v，收起面板，如果要跳转到工作界面，而继续保留命令行面板，只需要按设定好的alt+e即可，非常非常的实用
-4. 添加内容扩选与缩选 expand selection = alt+= shrink select =  alt+_
+### **编辑面板光标与命令行光标间切换**
+- F1 ==> keyboard ==> 搜索 Focus First Editor Grop 在原有的ctrl+1 基础上，右键添加一个新的快捷键，键盘同时按 alt+e 按enter确认  ## 目的： 光标快速到跳转到编辑处
 
+- 搜索 Focus Terminal （找到标有workbench.action.terminal.focus那一行) 添加 alt+v 快捷键  ## 目的，光标快速跳转到 命令行处，注意：如果在同一个命令行界面，分割成多个界面，可以按 alt+箭头键进行切换
+- 快捷打开与收起内置命令行工具 ctrl+`, 在这里可以多添加一个快捷键（Toggle Integrated Terminal,右键添加快捷键），还是alt+v， 如果需要调出面板时，按alt+v, 在按一次alt+v，收起面板，如果要跳转到工作界面，而继续保留命令行面板，只需要按设定好的alt+e即可，非常非常的实用
+### **添加内容扩选与缩选** 
+   expand selection = alt+= shrink select =  alt+_
+### **文字大小写切换 大写** 
+alt+shift+u  小写 alt+shift+l (说明，原来是ctrl+shift+u，因这个快捷键无法设置，做个调整，需要修改时，搜索关键词： transform，能很快定位到设置大小写的选项)
 
 
 ## 
