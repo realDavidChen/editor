@@ -1,6 +1,16 @@
 # vscode 常用插件
 
 ## react 和 react native JS 相关插件
+
+**Code Runner **
+
+必备的运行测试软件，支持几乎所有的流行计算机语言
+
+安装后进行适当的设置：
+
+1. 在快捷键设在中，添加一个快捷键，我给设置成 alt + a
+2. 在user settings --> extentions --> run code configuration  --> Save file before run 这里要打上勾，当你点击 alt+a 时，是保存然后运行，所以代码是最新，刚刚输入的
+
 **JavaScript (ES6) code snippets**\
 ![img](./images/es6.png)
 
@@ -132,6 +142,9 @@ GraphQL · Markdown · YAML
 
 ****\
 
+### javascript 和 typeScript辅助插件
+
+**Quokka.js 非常使用的实时预览软件**
 
 
 
