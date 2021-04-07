@@ -11,18 +11,18 @@
 1. 在快捷键设在中，添加一个快捷键，我给设置成 alt + a
 2. 在user settings --> extentions --> run code configuration  --> Save file before run 这里要打上勾，当你点击 alt+a 时，是保存然后运行，所以代码是最新，刚刚输入的
 
-**JavaScript (ES6) code snippets**\
+### **JavaScript (ES6) code snippets**\
 ![img](./images/es6.png)
 
 es6标准，插件的说明，附有大量的空间输入方式，大大的提高打码的开发效率
 
-**JavaScript Snippet Pack**\
+### **JavaScript Snippet Pack**\
 和js 相关的快捷键请参考插件说明
 
-**React Standard Style code snippets**\
+### **React Standard Style code snippets**\
 包含react标准的经典样本
 
-**React-Native/React/Redux snippets for es6/es7**\
+### **React-Native/React/Redux snippets for es6/es7**\
 ![img](./images/react.png)
 
 开发react必备
@@ -30,7 +30,7 @@ es6标准，插件的说明，附有大量的空间输入方式，大大的提�
 
 ## docker 插件
 
-**Docker**
+### **Docker**
 
 
 ## markdown 插件
@@ -49,10 +49,10 @@ es6标准，插件的说明，附有大量的空间输入方式，大大的提�
 
 ```
 
- **Markdown All in One** \
+ ### **Markdown All in One** \
   满足基本的需求，预览窗口，语法高亮等
 
-  **Markdown Paste** \
+ ###   **Markdown Paste** \
   ![img](./images/paste.png)
 
   可以快速的把网页的内容，粘帖到文档中，粘帖快捷键为 Ctrl+Alt+V，用这款插件，必须要安装插件才能工作,请根据自己的系统安装如下插件：
@@ -61,76 +61,82 @@ es6标准，插件的说明，附有大量的空间输入方式，大大的提�
     'powershell' command be required (Win32)
     'pbpaste' command be required (Mac)
 ```
-**Markdown Preview Github Styling** \
+### **Markdown Preview Github Styling** \
 显示github风格
 
-  **Markdown Shortcuts** \
+###   **Markdown Shortcuts** \
   右键有markdown格式的相关功能
 
 ## 格式化工具
 
-**Prettier - Code formatter**
+### **Prettier - Code formatter**
 ![img](./images/Prettier%20-%20Code%20formatter.png)
 
 非常不错的，格式化工具，可以看看
 
-**Beautify**
+### **Beautify**
 ![img](./images/Beautify.png)
 web 套件格式化工具，主要是 html css javascript 和 json
 
 ## css 工具
-**Sass Formatter** \
+### **Sass Formatter** \
 sass 格式化工具
 
-**Live Sass Compiler**\
+### **Live Sass Compiler**\
 sass动态编译，点一下下边栏的眼睛图标，即时的转换 scss=》css
 ![img](./images/Live%20Sass%20Compiler.png)
 
 ## 技巧与效率工具
-**Window Colors**\
+### **Window Colors**\
 ![img](./images/Window%20Colors.png)
 
 工作时，经常需要打开多个vs code 窗口，这个插件最大的好处就是，在新开的窗口，会自动的改变颜色，方便识别，在多个窗口间来回切换也不会造成混乱
 
-**Path Intellisense**\
+### **Path Intellisense**\
 快捷的路径工具
 
-**Material Icon Theme**\
+### **Material Icon Theme**\
 更完美的icon，方便识别，在标签的头部也有图标
 
-**Bracket Select**\
+### Bracket Pair Colorizer 2
+
+点击刮号，可快速的标出两个刮号间的内容，颜色高亮显示
+
+![alt](images/2021-04-07_13-06.png)
+
+### **Bracket Select**\
 快速选定括号内的内容，方便删除或者修改，这里需要注意的是，插件默认的快捷键为alt+a，毕竟不是非常常用的命令，为防止误操作我改成alt+9
 
-**Comment Translate** \
+### **Comment Translate** \
 ![img](images/Comment%20Translate.png)
 
 注释区自动翻译，非注释区只需要选中文本，鼠标轻微移动一下，也可以翻译，有时用得上
 
 
-**Preview on Web Server**
+### **Preview on Web Server**
 ![img](./iamges/../images/Preview%20on%20Web%20Server.png)
 
 提供web服务器服务，可以在web和浏览器两个窗口浏览
 
-**Live Server**\
+### **Live Server**\
 实时预览工具，非常实用，在浏览器中，跳出文件夹，文件夹内的文件都可以预览
 ![img](./images/liveserver.png)
 如果要**预览php文件**，本地需预装php环境并启用，并配合chrome浏览器**Live Server Web Extension**插件实现实时，转向预览，也就是，你输入php内容，点击保存时，文件可以实现实时同步
 ![img](./images/2021-02-24_13-28.png)
 
-**vscode-pdf**\ 
+### **vscode-pdf**\ 
 浏览pdf文件
 
-**Draw.io Integration**\
+### **Draw.io Integration**\
 ![img](./images/draw.io.png)
 
 最好用的图形化画图软件\
 **技巧说明**:默认文件格式为 test.drawio 格式,双击即可打开开始编辑，编辑完成后，保留成 svg格式，即可在网页上显示，也可以直接修改svg文件，当然，如果你保持好 svg文件，又希望在 Draw.io Integration中编辑，可以保持成： test.drawio.svg
 
-**Preview on Web Server**\
+### **Preview on Web Server**\
 这个插件，编辑html文件，可以在浏览器和编辑器右侧同步浏览
 
-**Prettier - Code formatter**\
+### **Prettier - Code formatter**\
 
 非常实用的格式化软件 支持格式非常丰富
 ```
@@ -144,7 +150,7 @@ GraphQL · Markdown · YAML
 
 ### javascript 和 typeScript辅助插件
 
-**Quokka.js 非常使用的实时预览软件**
+
 
 
 

@@ -27,6 +27,14 @@
 ### **文字大小写切换 大写** 
 alt+shift+u  小写 alt+shift+l (说明，原来是ctrl+shift+u，因这个快捷键无法设置，做个调整，需要修改时，搜索关键词： transform，能很快定位到设置大小写的选项)
 
+### 显示参数提示 Parameter Hints
+
+ctrl+shift+space
+
+### trigger suggets 触发提示
+
+需要替换关键词时，点 ctrl+i 跳出相关的可选项，很实用
+
 ###  Leaper 插件 按tab一键离开刮号
 
 
