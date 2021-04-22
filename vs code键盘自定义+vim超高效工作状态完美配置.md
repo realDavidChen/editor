@@ -29,6 +29,8 @@
 
  alt+d 来取代esc（包含hideSuggestWidget 隐藏建议面板）
 
+ alt+p(替代ctrl+p)调出打开的文件 俺 tab向下跳转，继续往下跳转按 alt+n（Getting started Next）alt+up向上（getting started： preview）
+
  
 ### **添加内容扩选与缩选** 
    expand selection = alt+= shrink select =  alt+_
