@@ -11,6 +11,10 @@
 1. 在快捷键设在中，添加一个快捷键，我给设置成 alt + a
 2. 在 user settings --> extentions --> run code configuration --> Save file before run 这里要打上勾，当你点击 alt+a 时，是保存然后运行，所以代码是最新，刚刚输入的
 
+### Advanced New File 自由创建新文件 
+
+### File Utils 文件重命名 删除 移动 等功能
+
 ### **JavaScript (ES6) code snippets**\
 
 ![img](./images/es6.png)
