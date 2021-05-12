@@ -48,10 +48,11 @@ es6 标准，插件的说明，附有大量的空间输入方式，大大的提�
 
 ## markdown 插件
 
-- **markdown-formatter** \
+* **markdown-formatter** \
+
   编写 md 文件效率大增，使用前请把这段代码添加到 settings.json
 
-```
+``` 
 "[markdown]": {
   // 快速补全
   "editor.quickSuggestions": {
@@ -65,15 +66,17 @@ es6 标准，插件的说明，附有大量的空间输入方式，大大的提�
 
 ### **Markdown All in One** \
 
+### code-translate 鼠标悬停翻译 很方便 
+
 满足基本的需求，预览窗口，语法高亮等
 
 ### **Markdown Paste** \
 
 ![img](./images/paste.png)
 
-可以快速的把网页的内容，粘帖到文档中，粘帖快捷键为 Ctrl+Alt+V，用这款插件，必须要安装插件才能工作,请根据自己的系统安装如下插件：
+可以快速的把网页的内容，粘帖到文档中，粘帖快捷键为 Ctrl+Alt+V，用这款插件，必须要安装插件才能工作, 请根据自己的系统安装如下插件：
 
-```
+``` 
     'xclip' command be required (Linux)
     'powershell' command be required (Win32)
     'pbpaste' command be required (Mac)
@@ -98,6 +101,7 @@ es6 标准，插件的说明，附有大量的空间输入方式，大大的提�
 ### **Beautify**
 
 ![img](./images/Beautify.png)
+
 web 套件格式化工具，主要是 html css javascript 和 json
 
 ## css 工具
@@ -109,6 +113,7 @@ sass 格式化工具
 ### **Live Sass Compiler**\
 
 sass 动态编译，点一下下边栏的眼睛图标，即时的转换 scss=》css
+
 ![img](./images/Live%20Sass%20Compiler.png)
 
 ## 技巧与效率工具
@@ -152,8 +157,11 @@ sass 动态编译，点一下下边栏的眼睛图标，即时的转换 scss=》
 ### **Live Server**\
 
 实时预览工具，非常实用，在浏览器中，跳出文件夹，文件夹内的文件都可以预览
+
 ![img](./images/liveserver.png)
+
 如果要**预览 php 文件**，本地需预装 php 环境并启用，并配合 chrome 浏览器**Live Server Web Extension**插件实现实时，转向预览，也就是，你输入 php 内容，点击保存时，文件可以实现实时同步
+
 ![img](./images/2021-02-24_13-28.png)
 
 ### **vscode-pdf**\
@@ -165,7 +173,7 @@ sass 动态编译，点一下下边栏的眼睛图标，即时的转换 scss=》
 ![img](./images/draw.io.png)
 
 最好用的图形化画图软件\
-**技巧说明**:默认文件格式为 test.drawio 格式,双击即可打开开始编辑，编辑完成后，保留成 svg 格式，即可在网页上显示，也可以直接修改 svg 文件，当然，如果你保持好 svg 文件，又希望在 Draw.io Integration 中编辑，可以保持成： test.drawio.svg
+**技巧说明**: 默认文件格式为 test.drawio 格式, 双击即可打开开始编辑，编辑完成后，保留成 svg 格式，即可在网页上显示，也可以直接修改 svg 文件，当然，如果你保持好 svg 文件，又希望在 Draw.io Integration 中编辑，可以保持成： test.drawio.svg
 
 ### **Preview on Web Server**\
 
@@ -175,7 +183,7 @@ sass 动态编译，点一下下边栏的眼睛图标，即时的转换 scss=》
 
 非常实用的格式化软件 支持格式非常丰富
 
-```
+``` 
 JavaScript · TypeScript · Flow · JSX · JSON
 CSS · SCSS · Less
 HTML · Vue · Angular
