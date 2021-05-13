@@ -71,8 +71,10 @@ $ sudo chown -R $(whoami) /usr/share/code
 ```
 
 3. 点 F1 搜索 "Enable Custom Css And Js",并点击执行，跳出提示后，确认，并执行
-4. 完成后，重新启动 vs code
+4. 完成后，执行成功，你能马上看到效果，（在执行中，会提升冲突，无视，点无需在提醒即可），重新启动 vs code
 5. 如果一切配置顺利，此时，你在 vscode-custom-css.css 配置的自定义css文件效果将会被渲染
+
+6. 每次修改css文件，都需要再次这些,Enable Custom css And Js 才能生效
 
 ### **JavaScript Snippet Pack**\
 
