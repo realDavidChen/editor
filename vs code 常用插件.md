@@ -28,6 +28,52 @@ es6 标准，插件的说明，附有大量的空间输入方式，大大的提�
 
 ![alt](./images/quokka2021-04-19_03-09.png)
 
+> 这个插件有个不足的地方就是，显示的提示和编辑器文字的颜色混淆在一起，经常看混了，改善的方法是，给显示的文字，配上背景颜色
+
+####  具体流程如下：
+
+ 在编辑器中，点 help --> Toggle Developer Tool --> 和调试 css一样，挑选并做修改，以下是我根据检查器捕捉到的class, 修改的结果，代码仅供参考，实际修改需要根据自己的环境做适当的调整：
+ 
+
+``` css
+.vs-dark.monaco-editor .ced-1-TextEditorDecorationType9-4::after,
+.hc-black.monaco-editor .ced-1-TextEditorDecorationType9-4::after {
+    margin: 1.2em;
+    color: rgb(86, 156, 214) !important;
+    /* 背景颜色请根据自己的需要自定义 */
+    background-color: black;
+}
+```
+
+**注意**： 用以上方法修改后，每次重启vs code编辑器时，都会被重置，所以这种方法不理想，要一劳永逸解决这个问题，请配合 Custom CSS and JS Loader 这个插件来使用
+
+### Custom CSS and JS Loader 自定义 vs code
+
+![img](./images/custom-css-js.png)
+
+配置有点繁琐，请先阅读一下官方说明，我的是ubuntu系统，以下是我配置的流程：
+
+1. 安装插件，并在 settings.json 添加 
+
+``` json
+// [""]里面添加你要自定义css文件的路径，留空无效，创建vscode-custom-css.css文件后，点右键，给足访问权限，文件名示例 ["file:////home/用户名/vscode-custom-css.css"] 
+
+   "vscode_custom_css.imports": [""]
+
+   ```
+
+2. 在命令行修改拥有者权限
+
+``` 
+
+$ sudo chown -R $(whoami) /usr/share/code
+
+```
+
+3. 点 F1 搜索 "Enable Custom Css And Js",并点击执行，跳出提示后，确认，并执行
+4. 完成后，重新启动 vs code
+5. 如果一切配置顺利，此时，你在 vscode-custom-css.css 配置的自定义css文件效果将会被渲染
+
 ### **JavaScript Snippet Pack**\
 
 和 js 相关的快捷键请参考插件说明
@@ -53,6 +99,7 @@ es6 标准，插件的说明，附有大量的空间输入方式，大大的提�
   编写 md 文件效率大增，使用前请把这段代码添加到 settings.json
 
 ``` 
+
 "[markdown]": {
   // 快速补全
   "editor.quickSuggestions": {
@@ -77,6 +124,7 @@ es6 标准，插件的说明，附有大量的空间输入方式，大大的提�
 可以快速的把网页的内容，粘帖到文档中，粘帖快捷键为 Ctrl+Alt+V，用这款插件，必须要安装插件才能工作, 请根据自己的系统安装如下插件：
 
 ``` 
+
     'xclip' command be required (Linux)
     'powershell' command be required (Win32)
     'pbpaste' command be required (Mac)
@@ -184,6 +232,7 @@ sass 动态编译，点一下下边栏的眼睛图标，即时的转换 scss=》
 非常实用的格式化软件 支持格式非常丰富
 
 ``` 
+
 JavaScript · TypeScript · Flow · JSX · JSON
 CSS · SCSS · Less
 HTML · Vue · Angular
