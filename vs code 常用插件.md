@@ -41,9 +41,9 @@ es6 标准，插件的说明，附有大量的空间输入方式，大大的提�
 1. 安装插件，并在 settings.json 添加 
 
 ``` json
-// [""]里面添加你要自定义css文件的路径，留空无效，创建vscode-custom-css.css文件后，点右键，给足访问权限，文件名示例 ["file:////home/用户名/vscode-custom-css.css"] 
+// [""]里面添加你要自定义css文件的路径，留空无效，创建vscode-custom-css.css文件后，点右键，给足访问权限，文件名示例 ["file:///home/用户名/vscode-custom-css.css"] 
 
-   "vscode_custom_css.imports": [""]
+   "vscode_custom_css.imports": ["file:///在这里添加本地自定义的css文件路径.css"]
 
    ```
 

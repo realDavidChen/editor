@@ -1,0 +1,8 @@
+.vs-dark.monaco-editor .ced-1-TextEditorDecorationType9-4::after,
+.hc-black.monaco-editor .ced-1-TextEditorDecorationType9-4::after {
+    margin: 1.2em;
+    color: rgb(86, 156, 214) !important;
+    /* 输出结果=》背景颜色自定义 */
+    background-color: black;
+    padding: 0 5px;
+}
