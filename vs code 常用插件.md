@@ -209,9 +209,11 @@ sass 动态编译，点一下下边栏的眼睛图标，即时的转换 scss=》
 
 ### **Preview on Web Server**
 
-![img](./iamges/../images/Preview%20on%20Web%20Server.png)
+### live Preview 编辑html实时预览（无需点保存）
+可在编辑器和浏览器内进行预览，目前编辑html最便捷的预览工具
 
-提供 web 服务器服务，可以在 web 和浏览器两个窗口浏览
+![img](images/2022-03-27_00-11.png)
+
 
 ### **Live Server**\
 
@@ -253,3 +255,4 @@ GraphQL · Markdown · YAML
 \*\*\*\*\
 
 ### javascript 和 typeScript 辅助插件
+
